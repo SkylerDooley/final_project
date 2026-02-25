@@ -1,0 +1,301 @@
+state,metric,units,year,value
+Alabama,num_farms,number,2024,37400
+Alabama,num_farms,number,2025,37100
+Alabama,land_in_farms,"1,000 acres",2024,8600
+Alabama,land_in_farms,"1,000 acres",2025,8600
+Alabama,avg_farm_size,acres,2024,230
+Alabama,avg_farm_size,acres,2025,232
+Alaska,num_farms,number,2024,1200
+Alaska,num_farms,number,2025,1200
+Alaska,land_in_farms,"1,000 acres",2024,870
+Alaska,land_in_farms,"1,000 acres",2025,870
+Alaska,avg_farm_size,acres,2024,725
+Alaska,avg_farm_size,acres,2025,725
+Arizona,num_farms,number,2024,16700
+Arizona,num_farms,number,2025,16400
+Arizona,land_in_farms,"1,000 acres",2024,25500
+Arizona,land_in_farms,"1,000 acres",2025,25000
+Arizona,avg_farm_size,acres,2024,1527
+Arizona,avg_farm_size,acres,2025,1524
+Arkansas,num_farms,number,2024,37800
+Arkansas,num_farms,number,2025,37400
+Arkansas,land_in_farms,"1,000 acres",2024,13700
+Arkansas,land_in_farms,"1,000 acres",2025,13700
+Arkansas,avg_farm_size,acres,2024,362
+Arkansas,avg_farm_size,acres,2025,366
+California,num_farms,number,2024,63100
+California,num_farms,number,2025,62900
+California,land_in_farms,"1,000 acres",2024,24200
+California,land_in_farms,"1,000 acres",2025,23800
+California,avg_farm_size,acres,2024,384
+California,avg_farm_size,acres,2025,378
+Colorado,num_farms,number,2024,36100
+Colorado,num_farms,number,2025,35900
+Colorado,land_in_farms,"1,000 acres",2024,30200
+Colorado,land_in_farms,"1,000 acres",2025,30000
+Colorado,avg_farm_size,acres,2024,837
+Colorado,avg_farm_size,acres,2025,836
+Connecticut,num_farms,number,2024,5100
+Connecticut,num_farms,number,2025,5100
+Connecticut,land_in_farms,"1,000 acres",2024,370
+Connecticut,land_in_farms,"1,000 acres",2025,370
+Connecticut,avg_farm_size,acres,2024,73
+Connecticut,avg_farm_size,acres,2025,73
+Delaware,num_farms,number,2024,2150
+Delaware,num_farms,number,2025,2150
+Delaware,land_in_farms,"1,000 acres",2024,520
+Delaware,land_in_farms,"1,000 acres",2025,520
+Delaware,avg_farm_size,acres,2024,242
+Delaware,avg_farm_size,acres,2025,242
+Florida,num_farms,number,2024,44700
+Florida,num_farms,number,2025,44400
+Florida,land_in_farms,"1,000 acres",2024,9700
+Florida,land_in_farms,"1,000 acres",2025,9700
+Florida,avg_farm_size,acres,2024,217
+Florida,avg_farm_size,acres,2025,218
+Georgia,num_farms,number,2024,39200
+Georgia,num_farms,number,2025,39000
+Georgia,land_in_farms,"1,000 acres",2024,10000
+Georgia,land_in_farms,"1,000 acres",2025,10000
+Georgia,avg_farm_size,acres,2024,255
+Georgia,avg_farm_size,acres,2025,256
+Hawaii,num_farms,number,2024,6600
+Hawaii,num_farms,number,2025,6600
+Hawaii,land_in_farms,"1,000 acres",2024,1050
+Hawaii,land_in_farms,"1,000 acres",2025,1050
+Hawaii,avg_farm_size,acres,2024,159
+Hawaii,avg_farm_size,acres,2025,159
+Idaho,num_farms,number,2024,22900
+Idaho,num_farms,number,2025,22600
+Idaho,land_in_farms,"1,000 acres",2024,11500
+Idaho,land_in_farms,"1,000 acres",2025,11500
+Idaho,avg_farm_size,acres,2024,502
+Idaho,avg_farm_size,acres,2025,509
+Illinois,num_farms,number,2024,71100
+Illinois,num_farms,number,2025,70700
+Illinois,land_in_farms,"1,000 acres",2024,26300
+Illinois,land_in_farms,"1,000 acres",2025,26300
+Illinois,avg_farm_size,acres,2024,370
+Illinois,avg_farm_size,acres,2025,372
+Indiana,num_farms,number,2024,53600
+Indiana,num_farms,number,2025,53300
+Indiana,land_in_farms,"1,000 acres",2024,14600
+Indiana,land_in_farms,"1,000 acres",2025,14600
+Indiana,avg_farm_size,acres,2024,272
+Indiana,avg_farm_size,acres,2025,274
+Iowa,num_farms,number,2024,86900
+Iowa,num_farms,number,2025,86800
+Iowa,land_in_farms,"1,000 acres",2024,30000
+Iowa,land_in_farms,"1,000 acres",2025,30000
+Iowa,avg_farm_size,acres,2024,345
+Iowa,avg_farm_size,acres,2025,346
+Kansas,num_farms,number,2024,55700
+Kansas,num_farms,number,2025,55500
+Kansas,land_in_farms,"1,000 acres",2024,44800
+Kansas,land_in_farms,"1,000 acres",2025,44800
+Kansas,avg_farm_size,acres,2024,804
+Kansas,avg_farm_size,acres,2025,807
+Kentucky,num_farms,number,2024,69400
+Kentucky,num_farms,number,2025,69100
+Kentucky,land_in_farms,"1,000 acres",2024,12400
+Kentucky,land_in_farms,"1,000 acres",2025,12400
+Kentucky,avg_farm_size,acres,2024,179
+Kentucky,avg_farm_size,acres,2025,179
+Louisiana,num_farms,number,2024,25000
+Louisiana,num_farms,number,2025,24800
+Louisiana,land_in_farms,"1,000 acres",2024,8000
+Louisiana,land_in_farms,"1,000 acres",2025,8000
+Louisiana,avg_farm_size,acres,2024,320
+Louisiana,avg_farm_size,acres,2025,323
+Maine,num_farms,number,2024,7000
+Maine,num_farms,number,2025,7000
+Maine,land_in_farms,"1,000 acres",2024,1200
+Maine,land_in_farms,"1,000 acres",2025,1200
+Maine,avg_farm_size,acres,2024,171
+Maine,avg_farm_size,acres,2025,171
+Maryland,num_farms,number,2024,12600
+Maryland,num_farms,number,2025,12600
+Maryland,land_in_farms,"1,000 acres",2024,2000
+Maryland,land_in_farms,"1,000 acres",2025,2000
+Maryland,avg_farm_size,acres,2024,159
+Maryland,avg_farm_size,acres,2025,159
+Massachusetts,num_farms,number,2024,7100
+Massachusetts,num_farms,number,2025,7100
+Massachusetts,land_in_farms,"1,000 acres",2024,470
+Massachusetts,land_in_farms,"1,000 acres",2025,470
+Massachusetts,avg_farm_size,acres,2024,66
+Massachusetts,avg_farm_size,acres,2025,66
+Michigan,num_farms,number,2024,45600
+Michigan,num_farms,number,2025,45300
+Michigan,land_in_farms,"1,000 acres",2024,9500
+Michigan,land_in_farms,"1,000 acres",2025,9500
+Michigan,avg_farm_size,acres,2024,208
+Michigan,avg_farm_size,acres,2025,210
+Minnesota,num_farms,number,2024,65500
+Minnesota,num_farms,number,2025,65300
+Minnesota,land_in_farms,"1,000 acres",2024,25400
+Minnesota,land_in_farms,"1,000 acres",2025,25400
+Minnesota,avg_farm_size,acres,2024,388
+Minnesota,avg_farm_size,acres,2025,389
+Mississippi,num_farms,number,2024,31300
+Mississippi,num_farms,number,2025,31100
+Mississippi,land_in_farms,"1,000 acres",2024,10300
+Mississippi,land_in_farms,"1,000 acres",2025,10300
+Mississippi,avg_farm_size,acres,2024,329
+Mississippi,avg_farm_size,acres,2025,331
+Missouri,num_farms,number,2024,87900
+Missouri,num_farms,number,2025,87600
+Missouri,land_in_farms,"1,000 acres",2024,27000
+Missouri,land_in_farms,"1,000 acres",2025,27000
+Missouri,avg_farm_size,acres,2024,307
+Missouri,avg_farm_size,acres,2025,308
+Montana,num_farms,number,2024,24300
+Montana,num_farms,number,2025,24300
+Montana,land_in_farms,"1,000 acres",2024,57600
+Montana,land_in_farms,"1,000 acres",2025,57600
+Montana,avg_farm_size,acres,2024,2370
+Montana,avg_farm_size,acres,2025,2370
+Nebraska,num_farms,number,2024,44500
+Nebraska,num_farms,number,2025,44400
+Nebraska,land_in_farms,"1,000 acres",2024,44000
+Nebraska,land_in_farms,"1,000 acres",2025,44000
+Nebraska,avg_farm_size,acres,2024,989
+Nebraska,avg_farm_size,acres,2025,991
+Nevada,num_farms,number,2024,3100
+Nevada,num_farms,number,2025,3100
+Nevada,land_in_farms,"1,000 acres",2024,5900
+Nevada,land_in_farms,"1,000 acres",2025,5900
+Nevada,avg_farm_size,acres,2024,1903
+Nevada,avg_farm_size,acres,2025,1903
+New Hampshire,num_farms,number,2024,3950
+New Hampshire,num_farms,number,2025,3950
+New Hampshire,land_in_farms,"1,000 acres",2024,420
+New Hampshire,land_in_farms,"1,000 acres",2025,420
+New Hampshire,avg_farm_size,acres,2024,106
+New Hampshire,avg_farm_size,acres,2025,106
+New Jersey,num_farms,number,2024,10000
+New Jersey,num_farms,number,2025,10000
+New Jersey,land_in_farms,"1,000 acres",2024,700
+New Jersey,land_in_farms,"1,000 acres",2025,700
+New Jersey,avg_farm_size,acres,2024,70
+New Jersey,avg_farm_size,acres,2025,70
+New Mexico,num_farms,number,2024,20900
+New Mexico,num_farms,number,2025,20900
+New Mexico,land_in_farms,"1,000 acres",2024,39100
+New Mexico,land_in_farms,"1,000 acres",2025,39100
+New Mexico,avg_farm_size,acres,2024,1871
+New Mexico,avg_farm_size,acres,2025,1871
+New York,num_farms,number,2024,30700
+New York,num_farms,number,2025,30700
+New York,land_in_farms,"1,000 acres",2024,6500
+New York,land_in_farms,"1,000 acres",2025,6500
+New York,avg_farm_size,acres,2024,212
+New York,avg_farm_size,acres,2025,212
+North Carolina,num_farms,number,2024,42800
+North Carolina,num_farms,number,2025,42500
+North Carolina,land_in_farms,"1,000 acres",2024,8100
+North Carolina,land_in_farms,"1,000 acres",2025,8100
+North Carolina,avg_farm_size,acres,2024,189
+North Carolina,avg_farm_size,acres,2025,191
+North Dakota,num_farms,number,2024,25100
+North Dakota,num_farms,number,2025,24800
+North Dakota,land_in_farms,"1,000 acres",2024,38500
+North Dakota,land_in_farms,"1,000 acres",2025,38500
+North Dakota,avg_farm_size,acres,2024,1534
+North Dakota,avg_farm_size,acres,2025,1552
+Ohio,num_farms,number,2024,76000
+Ohio,num_farms,number,2025,75800
+Ohio,land_in_farms,"1,000 acres",2024,13700
+Ohio,land_in_farms,"1,000 acres",2025,13700
+Ohio,avg_farm_size,acres,2024,180
+Ohio,avg_farm_size,acres,2025,181
+Oklahoma,num_farms,number,2024,70300
+Oklahoma,num_farms,number,2025,70300
+Oklahoma,land_in_farms,"1,000 acres",2024,32900
+Oklahoma,land_in_farms,"1,000 acres",2025,32900
+Oklahoma,avg_farm_size,acres,2024,468
+Oklahoma,avg_farm_size,acres,2025,468
+Oregon,num_farms,number,2024,35500
+Oregon,num_farms,number,2025,35500
+Oregon,land_in_farms,"1,000 acres",2024,15300
+Oregon,land_in_farms,"1,000 acres",2025,15300
+Oregon,avg_farm_size,acres,2024,431
+Oregon,avg_farm_size,acres,2025,431
+Pennsylvania,num_farms,number,2024,49000
+Pennsylvania,num_farms,number,2025,49000
+Pennsylvania,land_in_farms,"1,000 acres",2024,7100
+Pennsylvania,land_in_farms,"1,000 acres",2025,7100
+Pennsylvania,avg_farm_size,acres,2024,145
+Pennsylvania,avg_farm_size,acres,2025,145
+Rhode Island,num_farms,number,2024,1050
+Rhode Island,num_farms,number,2025,1050
+Rhode Island,land_in_farms,"1,000 acres",2024,60
+Rhode Island,land_in_farms,"1,000 acres",2025,60
+Rhode Island,avg_farm_size,acres,2024,57
+Rhode Island,avg_farm_size,acres,2025,57
+South Carolina,num_farms,number,2024,22600
+South Carolina,num_farms,number,2025,22600
+South Carolina,land_in_farms,"1,000 acres",2024,4600
+South Carolina,land_in_farms,"1,000 acres",2025,4600
+South Carolina,avg_farm_size,acres,2024,204
+South Carolina,avg_farm_size,acres,2025,204
+South Dakota,num_farms,number,2024,28300
+South Dakota,num_farms,number,2025,28300
+South Dakota,land_in_farms,"1,000 acres",2024,42300
+South Dakota,land_in_farms,"1,000 acres",2025,42300
+South Dakota,avg_farm_size,acres,2024,1495
+South Dakota,avg_farm_size,acres,2025,1495
+Tennessee,num_farms,number,2024,63100
+Tennessee,num_farms,number,2025,63100
+Tennessee,land_in_farms,"1,000 acres",2024,10700
+Tennessee,land_in_farms,"1,000 acres",2025,10700
+Tennessee,avg_farm_size,acres,2024,170
+Tennessee,avg_farm_size,acres,2025,170
+Texas,num_farms,number,2024,231000
+Texas,num_farms,number,2025,231000
+Texas,land_in_farms,"1,000 acres",2024,125000
+Texas,land_in_farms,"1,000 acres",2025,125000
+Texas,avg_farm_size,acres,2024,541
+Texas,avg_farm_size,acres,2025,541
+Utah,num_farms,number,2024,17400
+Utah,num_farms,number,2025,17400
+Utah,land_in_farms,"1,000 acres",2024,10500
+Utah,land_in_farms,"1,000 acres",2025,10500
+Utah,avg_farm_size,acres,2024,603
+Utah,avg_farm_size,acres,2025,603
+Vermont,num_farms,number,2024,6500
+Vermont,num_farms,number,2025,6500
+Vermont,land_in_farms,"1,000 acres",2024,1200
+Vermont,land_in_farms,"1,000 acres",2025,1200
+Vermont,avg_farm_size,acres,2024,185
+Vermont,avg_farm_size,acres,2025,185
+Virginia,num_farms,number,2024,39000
+Virginia,num_farms,number,2025,39000
+Virginia,land_in_farms,"1,000 acres",2024,7300
+Virginia,land_in_farms,"1,000 acres",2025,7300
+Virginia,avg_farm_size,acres,2024,187
+Virginia,avg_farm_size,acres,2025,187
+Washington,num_farms,number,2024,32100
+Washington,num_farms,number,2025,32000
+Washington,land_in_farms,"1,000 acres",2024,13900
+Washington,land_in_farms,"1,000 acres",2025,13900
+Washington,avg_farm_size,acres,2024,433
+Washington,avg_farm_size,acres,2025,434
+West Virginia,num_farms,number,2024,22800
+West Virginia,num_farms,number,2025,22800
+West Virginia,land_in_farms,"1,000 acres",2024,3500
+West Virginia,land_in_farms,"1,000 acres",2025,3500
+West Virginia,avg_farm_size,acres,2024,154
+West Virginia,avg_farm_size,acres,2025,154
+Wisconsin,num_farms,number,2024,58500
+Wisconsin,num_farms,number,2025,58500
+Wisconsin,land_in_farms,"1,000 acres",2024,13800
+Wisconsin,land_in_farms,"1,000 acres",2025,13800
+Wisconsin,avg_farm_size,acres,2024,236
+Wisconsin,avg_farm_size,acres,2025,236
+Wyoming,num_farms,number,2024,10500
+Wyoming,num_farms,number,2025,10500
+Wyoming,land_in_farms,"1,000 acres",2024,28800
+Wyoming,land_in_farms,"1,000 acres",2025,28800
+Wyoming,avg_farm_size,acres,2024,2743
+Wyoming,avg_farm_size,acres,2025,2743

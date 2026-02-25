@@ -14,11 +14,9 @@ Rename PDF_PATH and OUTPUT_CSV to read different pdfs
 """
 import tabula
 import pandas as pd
-import numpy as np
-import re
 
-PDF_PATH = "farm_24-25.pdf"
-OUTPUT_CSV = "farm_24-25.csv"
+PDF_PATH = "farm_21-20.pdf"
+OUTPUT_CSV = "farm_21-20.csv"
 
 print("Extracting table using Tabula...")
 
