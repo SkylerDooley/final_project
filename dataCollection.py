@@ -17,6 +17,8 @@ import pandas as pd
 
 PDF_PATH = "farm_21-20.pdf"
 OUTPUT_CSV = "farm_21-20.csv"
+lYear="2020" #lower year
+uYear="2021" #upper year
 
 print("Extracting table using Tabula...")
 
@@ -37,7 +39,7 @@ df = tables[0]
 df = df.dropna(how="all").reset_index(drop=True)
 
 # Remove header rows (State, 2024 2025, units)
-header_mask = df["Unnamed: 0"].astype(str).str.contains("State|2024|2025|number|acres", case=False, na=False)
+header_mask = df["Unnamed: 0"].astype(str).str.contains("State|"+lYear+"|"+uYear+"|number|acres", case=False, na=False)
 df = df[~header_mask].reset_index(drop=True)
 
 # Remove blank separator rows
@@ -54,18 +56,18 @@ def split_two_years(col):
     """Split '37,100 37,000' → ['37,100','37,000']"""
     return col.astype(str).str.split(expand=True)
 
-df[["farms_2024", "farms_2025"]] = split_two_years(df["Number of farms"])
-df[["land_2024", "land_2025"]] = split_two_years(df["Land in farms"])
-df[["avg_2024", "avg_2025"]] = split_two_years(df["Average farm size"])
+df[["farms_"+lYear, "farms_"+uYear]] = split_two_years(df["Number of farms"])
+df[["land_"+lYear, "land_"+uYear]] = split_two_years(df["Land in farms"])
+df[["avg_"+lYear, "avg_"+uYear]] = split_two_years(df["Average farm size"])
 
 # ---------------------------------------------------
 # 3. CLEAN NUMERIC VALUES
 # ---------------------------------------------------
 
 num_cols = [
-    "farms_2024","farms_2025",
-    "land_2024","land_2025",
-    "avg_2024","avg_2025"
+    "farms_"+lYear,"farms_"+uYear,
+    "land_"+lYear,"land_"+uYear,
+    "avg_"+lYear,"avg_"+uYear
 ]
 
 for col in num_cols:
@@ -88,14 +90,14 @@ for _, row in df.iterrows():
     state = row["state"]
 
     tidy_rows += [
-        {"state": state, "metric": "num_farms", "units": "number", "year": 2024, "value": row["farms_2024"]},
-        {"state": state, "metric": "num_farms", "units": "number", "year": 2025, "value": row["farms_2025"]},
+        {"state": state, "metric": "num_farms", "units": "number", "year": lYear, "value": row["farms_"+lYear]},
+        {"state": state, "metric": "num_farms", "units": "number", "year": uYear, "value": row["farms_"+uYear]},
 
-        {"state": state, "metric": "land_in_farms", "units": "1,000 acres", "year": 2024, "value": row["land_2024"]},
-        {"state": state, "metric": "land_in_farms", "units": "1,000 acres", "year": 2025, "value": row["land_2025"]},
+        {"state": state, "metric": "land_in_farms", "units": "1,000 acres", "year": lYear, "value": row["land_"+lYear]},
+        {"state": state, "metric": "land_in_farms", "units": "1,000 acres", "year": uYear, "value": row["land_"+uYear]},
 
-        {"state": state, "metric": "avg_farm_size", "units": "acres", "year": 2024, "value": row["avg_2024"]},
-        {"state": state, "metric": "avg_farm_size", "units": "acres", "year": 2025, "value": row["avg_2025"]},
+        {"state": state, "metric": "avg_farm_size", "units": "acres", "year": lYear, "value": row["avg_"+lYear]},
+        {"state": state, "metric": "avg_farm_size", "units": "acres", "year": uYear, "value": row["avg_"+uYear]},
     ]
 
 tidy = pd.DataFrame(tidy_rows)
