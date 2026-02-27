@@ -58,7 +58,7 @@ export default function FarmTotalsLineChart() {
       svg.append("path")
         .datum(data)
         .attr("fill", "none")
-        .attr("stroke", "#1976d2")
+        .attr("stroke", "#16ad53")
         .attr("stroke-width", 3)
         .attr("d", line);
 
@@ -82,7 +82,7 @@ export default function FarmTotalsLineChart() {
         .attr("cx", d => x(d.year))
         .attr("cy", d => y(d.total))
         .attr("r", 4)
-        .attr("fill", "#1976d2")
+        .attr("fill", "#16ad53")
 
         // SHOW tooltip
         .on("mouseover", (event, d) => {

@@ -5,3 +5,11 @@
   align-items: center;   /* horizontal center */
   text-align: center; 
 }
+
+.title {
+  margin-bottom: 5px;
+}
+
+.subtitle {
+  margin-top: 1px;
+}
