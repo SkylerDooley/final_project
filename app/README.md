@@ -1,3 +1,6 @@
+Link to get GeoJSON file
+https://eric.clst.org/tech/usgeojson/
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

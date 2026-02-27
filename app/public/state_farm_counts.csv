@@ -1,0 +1,301 @@
+state,num_farms,year
+Alabama,39000,2020
+Alabama,38500,2021
+Alaska,1050,2020
+Alaska,1050,2021
+Arizona,19000,2020
+Arizona,19000,2021
+Arkansas,42200,2020
+Arkansas,42000,2021
+California,69600,2020
+California,69000,2021
+Colorado,38800,2020
+Colorado,39000,2021
+Connecticut,5500,2020
+Connecticut,5500,2021
+Delaware,2300,2020
+Delaware,2300,2021
+Florida,47500,2020
+Florida,47500,2021
+Georgia,41400,2020
+Georgia,41300,2021
+Hawaii,7300,2020
+Hawaii,7300,2021
+Idaho,24600,2020
+Idaho,24600,2021
+Illinois,71100,2020
+Illinois,70900,2021
+Indiana,55500,2020
+Indiana,55100,2021
+Iowa,85000,2020
+Iowa,84900,2021
+Kansas,58300,2020
+Kansas,58600,2021
+Kentucky,74500,2020
+Kentucky,74100,2021
+Louisiana,27400,2020
+Louisiana,27400,2021
+Maine,7600,2020
+Maine,7600,2021
+Maryland,12400,2020
+Maryland,12400,2021
+Massachusetts,7200,2020
+Massachusetts,7200,2021
+Michigan,46500,2020
+Michigan,46000,2021
+Minnesota,67500,2020
+Minnesota,67400,2021
+Mississippi,34400,2020
+Mississippi,34300,2021
+Missouri,95000,2020
+Missouri,95000,2021
+Montana,26900,2020
+Montana,27100,2021
+Nebraska,45500,2020
+Nebraska,44800,2021
+Nevada,3350,2020
+Nevada,3400,2021
+New Hampshire,4100,2020
+New Hampshire,4100,2021
+New Jersey,9900,2020
+New Jersey,9900,2021
+New Mexico,24800,2020
+New Mexico,24700,2021
+New York,33400,2020
+New York,33400,2021
+North Carolina,46000,2020
+North Carolina,45100,2021
+North Dakota,26000,2020
+North Dakota,26000,2021
+Ohio,77800,2020
+Ohio,76900,2021
+Oklahoma,77300,2020
+Oklahoma,77200,2021
+Oregon,37200,2020
+Oregon,37100,2021
+Pennsylvania,52700,2020
+Pennsylvania,52700,2021
+Rhode Island,1100,2020
+Rhode Island,1100,2021
+South Carolina,24600,2020
+South Carolina,24600,2021
+South Dakota,29600,2020
+South Dakota,29400,2021
+Tennessee,69500,2020
+Tennessee,69500,2021
+Texas,247000,2020
+Texas,247000,2021
+Utah,17800,2020
+Utah,17900,2021
+Vermont,6800,2020
+Vermont,6800,2021
+Virginia,42300,2020
+Virginia,41500,2021
+Washington,35500,2020
+Washington,35300,2021
+West Virginia,22800,2020
+West Virginia,22300,2021
+Wisconsin,64400,2020
+Wisconsin,64100,2021
+Wyoming,12000,2020
+Wyoming,12200,2021
+Alabama,37400,2022
+Alabama,37100,2023
+Alaska,1200,2022
+Alaska,1200,2023
+Arizona,16700,2022
+Arizona,16400,2023
+Arkansas,37800,2022
+Arkansas,37400,2023
+California,63100,2022
+California,62900,2023
+Colorado,36100,2022
+Colorado,35900,2023
+Connecticut,5100,2022
+Connecticut,5100,2023
+Delaware,2150,2022
+Delaware,2150,2023
+Florida,44700,2022
+Florida,44400,2023
+Georgia,39200,2022
+Georgia,39000,2023
+Hawaii,6600,2022
+Hawaii,6600,2023
+Idaho,22900,2022
+Idaho,22600,2023
+Illinois,71100,2022
+Illinois,70700,2023
+Indiana,53600,2022
+Indiana,53300,2023
+Iowa,86900,2022
+Iowa,86800,2023
+Kansas,55700,2022
+Kansas,55500,2023
+Kentucky,69400,2022
+Kentucky,69100,2023
+Louisiana,25000,2022
+Louisiana,24800,2023
+Maine,7000,2022
+Maine,7000,2023
+Maryland,12600,2022
+Maryland,12600,2023
+Massachusetts,7100,2022
+Massachusetts,7100,2023
+Michigan,45600,2022
+Michigan,45300,2023
+Minnesota,65500,2022
+Minnesota,65300,2023
+Mississippi,31300,2022
+Mississippi,31100,2023
+Missouri,87900,2022
+Missouri,87600,2023
+Montana,24300,2022
+Montana,24300,2023
+Nebraska,44500,2022
+Nebraska,44400,2023
+Nevada,3100,2022
+Nevada,3100,2023
+New Hampshire,3950,2022
+New Hampshire,3950,2023
+New Jersey,10000,2022
+New Jersey,10000,2023
+New Mexico,20900,2022
+New Mexico,20900,2023
+New York,30700,2022
+New York,30700,2023
+North Carolina,42800,2022
+North Carolina,42500,2023
+North Dakota,25100,2022
+North Dakota,24800,2023
+Ohio,76000,2022
+Ohio,75800,2023
+Oklahoma,70300,2022
+Oklahoma,70300,2023
+Oregon,35500,2022
+Oregon,35500,2023
+Pennsylvania,49000,2022
+Pennsylvania,49000,2023
+Rhode Island,1050,2022
+Rhode Island,1050,2023
+South Carolina,22600,2022
+South Carolina,22600,2023
+South Dakota,28300,2022
+South Dakota,28300,2023
+Tennessee,63100,2022
+Tennessee,63100,2023
+Texas,231000,2022
+Texas,231000,2023
+Utah,17400,2022
+Utah,17400,2023
+Vermont,6500,2022
+Vermont,6500,2023
+Virginia,39000,2022
+Virginia,39000,2023
+Washington,32100,2022
+Washington,32000,2023
+West Virginia,22800,2022
+West Virginia,22800,2023
+Wisconsin,58500,2022
+Wisconsin,58500,2023
+Wyoming,10500,2022
+Wyoming,10500,2023
+Alabama,37100,2024
+Alabama,37000,2025
+Alaska,1200,2024
+Alaska,1200,2025
+Arizona,15100,2024
+Arizona,15100,2025
+Arkansas,37200,2024
+Arkansas,37000,2025
+California,62500,2024
+California,62100,2025
+Colorado,35000,2024
+Colorado,34900,2025
+Connecticut,4900,2024
+Connecticut,4900,2025
+Delaware,2150,2024
+Delaware,2150,2025
+Florida,44400,2024
+Florida,44000,2025
+Georgia,38300,2024
+Georgia,38000,2025
+Hawaii,6500,2024
+Hawaii,6500,2025
+Idaho,22500,2024
+Idaho,22400,2025
+Illinois,70000,2024
+Illinois,69600,2025
+Indiana,52000,2024
+Indiana,51500,2025
+Iowa,86700,2024
+Iowa,86200,2025
+Kansas,55500,2024
+Kansas,54800,2025
+Kentucky,69100,2024
+Kentucky,67700,2025
+Louisiana,24600,2024
+Louisiana,24300,2025
+Maine,7000,2024
+Maine,6900,2025
+Maryland,12600,2024
+Maryland,12600,2025
+Massachusetts,6900,2024
+Massachusetts,6900,2025
+Michigan,44000,2024
+Michigan,43800,2025
+Minnesota,65300,2024
+Minnesota,64000,2025
+Mississippi,30800,2024
+Mississippi,30500,2025
+Missouri,85700,2024
+Missouri,85500,2025
+Montana,23800,2024
+Montana,23300,2025
+Nebraska,44300,2024
+Nebraska,44100,2025
+Nevada,3100,2024
+Nevada,3000,2025
+New Hampshire,3850,2024
+New Hampshire,3850,2025
+New Jersey,9900,2024
+New Jersey,9900,2025
+New Mexico,20800,2024
+New Mexico,20600,2025
+New York,30500,2024
+New York,30000,2025
+North Carolina,42100,2024
+North Carolina,41300,2025
+North Dakota,24800,2024
+North Dakota,24500,2025
+Ohio,74000,2024
+Ohio,73600,2025
+Oklahoma,70000,2024
+Oklahoma,69700,2025
+Oregon,35500,2024
+Oregon,35400,2025
+Pennsylvania,48800,2024
+Pennsylvania,48400,2025
+Rhode Island,1000,2024
+Rhode Island,1000,2025
+South Carolina,22600,2024
+South Carolina,22500,2025
+South Dakota,28300,2024
+South Dakota,28200,2025
+Tennessee,62900,2024
+Tennessee,62500,2025
+Texas,231000,2024
+Texas,229000,2025
+Utah,17300,2024
+Utah,17200,2025
+Vermont,6300,2024
+Vermont,6300,2025
+Virginia,39000,2024
+Virginia,38600,2025
+Washington,31800,2024
+Washington,31500,2025
+West Virginia,22600,2024
+West Virginia,22500,2025
+Wisconsin,58200,2024
+Wisconsin,58000,2025
+Wyoming,10500,2024
+Wyoming,10500,2025
