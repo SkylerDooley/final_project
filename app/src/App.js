@@ -1,5 +1,6 @@
 import './App.css';
 import FarmLineChart from "./components/US_total_farms.js";
+import USFarmMap from "./components/US_farm_map.js";
 
 function App() {
   return (
@@ -11,6 +12,8 @@ function App() {
       <p>First however, let's take a look at the big picture; the total number of farms in the US.</p>
       <h2>US Total Farms</h2>
       <FarmLineChart />
+      <h2>Farm Count By State Per Year</h2>
+      <USFarmMap />
     </div>
   );
 }
