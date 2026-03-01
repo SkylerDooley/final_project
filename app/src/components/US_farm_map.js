@@ -4,10 +4,10 @@ import * as d3 from "d3";
 export default function USFarmMap() {
   const ref = useRef();
 
-  const [selectedYear, setSelectedYear] = useState(2020);
+  const [selectedYear, setSelectedYear] = useState(2020); // open on 2020
   const [data, setData] = useState([]);
 
-  // Load CSV once
+  // Load CSV
   useEffect(() => {
     d3.csv("/state_farm_counts.csv", d => ({
       state: d.state,
@@ -18,7 +18,7 @@ export default function USFarmMap() {
     });
   }, []);
 
-  // Draw map when year changes
+  // Draw map when year changes (button press)
   useEffect(() => {
     if (!data.length) return;
 
@@ -64,7 +64,7 @@ export default function USFarmMap() {
       const previous = prevMap.get(state);
 
       if (current == null || previous == null) return "#ccc";
-
+      // color palette taken from 2020 color palette (Tableau color palette)
       if (current > previous) return "#59a14f"; 
       if (current < previous) return "#e15759";
       return "#f2d55c";
