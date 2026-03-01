@@ -58,7 +58,7 @@ export default function FarmTotalsLineChart() {
       svg.append("path")
         .datum(data)
         .attr("fill", "none")
-        .attr("stroke", "#16ad53")
+        .attr("stroke", "#59a14f")
         .attr("stroke-width", 3)
         .attr("d", line);
 
