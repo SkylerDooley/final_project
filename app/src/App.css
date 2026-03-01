@@ -4,6 +4,7 @@
   flex-direction: column;
   align-items: center;   /* horizontal center */
   text-align: center; 
+  background-color: #fff0db;
 }
 
 .title {
