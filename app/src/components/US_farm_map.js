@@ -114,9 +114,9 @@ export default function USFarmMap() {
               }<br/>
               Change vs ${selectedYear - 1}: ${
                 prev == null ? "N/A"
-                : val > prev ? "▲ Increase"
-                : val < prev ? "▼ Decrease"
-                : "— No change"
+                : val > prev ? "Increase"
+                : val < prev ? "Decrease"
+                : "No change"
               }
             `);
         })
@@ -145,50 +145,51 @@ export default function USFarmMap() {
 
   // ---------- UI ----------
   return (
-    <div style={{ display: "flex" }}>
+  <div style={{ display: "flex" }}>
 
-      {/* MAP */}
-      <div ref={ref}></div>
+    {/* MAP */}
+    <div ref={ref}></div>
 
-      {/* CONTROLS */}
-      <div style={{ marginLeft: 20 }}>
+    {/* CONTROLS */}
+    <div style={{ marginLeft: 20 }}>
 
-        <h4>Select Year</h4>
-        {[2020,2021,2022,2023,2024,2025].map(y => (
-          <button
-            key={y}
-            onClick={() => setSelectedYear(y)}
-            style={{
-              display: "block",
-              marginBottom: 10,
-              padding: "8px 12px",
-              background: selectedYear === y ? "#1976d2" : "#eee",
-              color: selectedYear === y ? "white" : "black",
-              border: "1px solid #ccc",
-              borderRadius: 4,
-              cursor: "pointer",
-              width: 100
-            }}
-          >
-            {y}
-          </button>
-        ))}
+      <h4 style={{ marginBottom: 8 }}>Select Year</h4>
+      {[2020,2021,2022,2023,2024,2025].map(y => (
+        <button
+          key={y}
+          onClick={() => setSelectedYear(y)}
+          style={{
+            display: "block",
+            marginBottom: 10,
+            padding: "8px 12px",
+            background: selectedYear === y ? "#1976d2" : "#eee",
+            color: selectedYear === y ? "white" : "black",
+            border: "1px solid #ccc",
+            borderRadius: 4,
+            cursor: "pointer",
+            width: 140
+          }}
+        >
+          {y}
+        </button>
+      ))}
 
-        {/* TOGGLE */}
-        <h4>Metric</h4>
+      {/* METRIC */}
+      <h4 style={{ marginBottom: 8 }}>Metric</h4>
 
+      <div style={{ display: "flex", flexDirection: "column" }}>
         <button
           onClick={() => setMode("farms")}
           style={{
             padding: "8px 14px",
-            marginRight: 8,
+            marginBottom: 10,
             borderRadius: 6,
             border: "1px solid #ccc",
             cursor: "pointer",
-            fontWeight: 600,
             background: mode === "farms" ? "#1976d2" : "#eee",
             color: mode === "farms" ? "white" : "black",
-            boxShadow: mode === "farms" ? "0 0 0 2px rgba(25,118,210,.25)" : "none"
+            boxShadow: mode === "farms" ? "0 0 0 2px rgba(25,118,210,.25)" : "none",
+            width: 140
           }}
         >
           Number of Farms
@@ -201,28 +202,29 @@ export default function USFarmMap() {
             borderRadius: 6,
             border: "1px solid #ccc",
             cursor: "pointer",
-            fontWeight: 600,
             background: mode === "land" ? "#1976d2" : "#eee",
             color: mode === "land" ? "white" : "black",
-            boxShadow: mode === "land" ? "0 0 0 2px rgba(25,118,210,.25)" : "none"
+            boxShadow: mode === "land" ? "0 0 0 2px rgba(25,118,210,.25)" : "none",
+            width: 140
           }}
         >
           Land in Farms
         </button>
-
-        {/* LEGEND */}
-        <div style={{ marginTop: 30 }}>
-          <h4 style={{ margin: "0 0 4px 0" }}>Legend</h4>
-          <h5 style={{ margin: "0 0 8px 0", fontWeight: 500 }}>
-            ({mode === "farms" ? "Farm Count Change" : "Land Area Change"})
-          </h5>
-
-          <LegendRow color="#59a14f" label="Increase"/>
-          <LegendRow color="#f2d55c" label="No change"/>
-          <LegendRow color="#e15759" label="Decrease"/>
-        </div>
-
       </div>
+
+      {/* LEGEND */}
+      <div style={{ marginTop: 30, textAlign: "center" }}>
+        <h4 style={{ margin: "0 0 4px 0" }}>Legend</h4>
+        <h5 style={{ margin: "0 0 8px 0", fontWeight: 500 }}>
+          ({mode === "farms" ? "Farm Count Change" : "Land Area Change"})
+        </h5>
+        <LegendRow color="#59a14f" label="Increase" />
+        <LegendRow color="#f2d55c" label="No change" />
+        <LegendRow color="#e15759" label="Decrease" />
+      </div>
+
     </div>
-  );
+  </div>
+);
 }
+
