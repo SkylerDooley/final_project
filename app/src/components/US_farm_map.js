@@ -3,12 +3,15 @@ import * as d3 from "d3";
 
 export default function USFarmMap() {
   const ref = useRef();
+  const barRef = useRef();
+
 
   const [selectedYear, setSelectedYear] = useState(2020);
   const [mode, setMode] = useState("farms"); // farms | land
 
   const [farmData, setFarmData] = useState([]);
   const [landData, setLandData] = useState([]);
+
 
   // ---------- LOAD CSVS ----------
   useEffect(() => {
@@ -127,7 +130,90 @@ export default function USFarmMap() {
         .on("mouseout", () => tip.style("visibility", "hidden"));
     });
 
+
+    // ---------- DRAW BAR CHART ----------
+      d3.select(barRef.current).selectAll("*").remove();
+
+      const barWidth = 960;
+      const barHeight = 300;
+      const margin = { top: 20, right: 20, bottom: 80, left: 60 };
+
+      const svgBar = d3.select(barRef.current)
+        .append("svg")
+        .attr("width", barWidth)
+        .attr("height", barHeight);
+
+      // convert Map → array
+      const barData = Array.from(dataMap, ([state, value]) => ({ state, value }))
+        .sort((a, b) => d3.ascending(a.state, b.state)); // alphabetical
+
+      // scales
+      const x = d3.scaleBand()
+        .domain(barData.map(d => d.state))
+        .range([margin.left, barWidth - margin.right])
+        .padding(0.2);
+
+      const y = d3.scaleLinear()
+        .domain([0, d3.max(barData, d => d.value)])
+        .nice()
+        .range([barHeight - margin.bottom, margin.top]);
+
+      // axes
+      svgBar.append("g")
+        .attr("transform", `translate(0,${barHeight - margin.bottom})`)
+        .call(d3.axisBottom(x))
+        .selectAll("text")
+        .attr("transform", "rotate(-65)")
+        .style("text-anchor", "end")
+        .style("font-size", "11px");
+
+      svgBar.append("g")
+        .attr("transform", `translate(${margin.left},0)`)
+        .call(d3.axisLeft(y).ticks(6));
+
+      // bars
+      svgBar.selectAll("rect")
+      .data(barData)
+      .enter()
+      .append("rect")
+      .attr("x", d => x(d.state))
+      .attr("y", d => y(d.value))
+      .attr("width", x.bandwidth())
+      .attr("height", d => barHeight - margin.bottom - y(d.value))
+      .attr("fill", d => getColor(d.state))
+      .on("mouseover", (event, d) => {
+        const prev = prevMap.get(d.state);
+        const val = d.value;
+
+        tip.style("visibility", "visible")
+          .html(`
+            <strong>${d.state}</strong><br/>
+            Year: ${selectedYear}<br/>
+            ${
+              mode === "farms"
+                ? `Farms: ${val.toLocaleString()}`
+                : `Land: ${val.toLocaleString()} (1,000 acres)`
+            }<br/>
+            Change vs ${selectedYear - 1}: ${
+              prev == null ? "N/A"
+              : val > prev ? "Increase"
+              : val < prev ? "Decrease"
+              : "No change"
+            }
+          `);
+      })
+      .on("mousemove", event => {
+        tip.style("top", event.pageY - 10 + "px")
+          .style("left", event.pageX + 10 + "px");
+      })
+      .on("mouseout", () => {
+        tip.style("visibility", "hidden");
+      });
+
+
   }, [selectedYear, mode, farmData, landData]);
+
+
 
   // ---------- LEGEND ROW ----------
   const LegendRow = ({ color, label }) => (
@@ -143,12 +229,20 @@ export default function USFarmMap() {
     </div>
   );
 
+  
+
   // ---------- UI ----------
   return (
   <div style={{ display: "flex" }}>
 
+
     {/* MAP */}
-    <div ref={ref}></div>
+    <div style={{ display: "flex", flexDirection: "column" }}>
+    <div ref={ref}></div>   {/* map */}
+    <div ref={barRef}></div>  {/* bars */}
+    </div>
+
+
 
     {/* CONTROLS */}
     <div style={{ marginLeft: 20 }}>
@@ -173,6 +267,8 @@ export default function USFarmMap() {
           {y}
         </button>
       ))}
+
+      
 
       {/* METRIC */}
       <h4 style={{ marginBottom: 8 }}>Metric</h4>
