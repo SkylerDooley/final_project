@@ -149,6 +149,7 @@ export default function USFarmMap() {
 
     {/* MAP */}
     <div ref={ref}></div>
+    
 
     {/* CONTROLS */}
     <div style={{ marginLeft: 20 }}>
@@ -223,7 +224,9 @@ export default function USFarmMap() {
         <LegendRow color="#e15759" label="Decrease" />
       </div>
 
+    
     </div>
+  
   </div>
 );
 }
