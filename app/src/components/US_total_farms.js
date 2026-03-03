@@ -41,12 +41,14 @@ export default function FarmTotalsLineChart() {
       svg.append("g")
         .attr("transform", `translate(0,${height - margin.bottom})`)
         .call(d3.axisBottom(x).tickValues([2021, 2022, 2023, 2024, 2025]))
-        .call(d3.axisBottom(x).ticks(5).tickFormat(d3.format("d")));
+        .call(d3.axisBottom(x).ticks(5).tickFormat(d3.format("d")))
+        .style("font-size", "12px");
 
 
       svg.append("g")
         .attr("transform", `translate(${margin.left},0)`)
-        .call(d3.axisLeft(y).ticks(6).tickFormat(d3.format(",")));
+        .call(d3.axisLeft(y).ticks(6).tickFormat(d3.format(",")))
+        .style("font-size", "12px");
         
 
       // line generator
