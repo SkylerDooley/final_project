@@ -3,8 +3,8 @@ Final Project - Interactive Data Visualization
 Written by Daniel Mastrobuono and Skyler Dooley
 
 * Link to get GeoJSON file used for map https://eric.clst.org/tech/usgeojson/
-* Link to GitHub Pages: 
-* Link to Screencast Video: 
+* Link to hosted webpage: 
+* Link to Screencast Video: https://www.loom.com/share/331e1a9f6230451094d2e884fd28d8e2 
 
 To open the project website from the terminal into a localhost page, just run `npm run` in the terminal
 
@@ -19,13 +19,7 @@ python files:
 * total_farms_by_state outputs state_farm_counts and has the rows state, num_farms, and year
 
 component .js files:
-* US_total_farms
-* US_farm_map
+* US_total_farms is where the first line graph on the webpage is created. The visual was created using d3 and html formatting.
+* US_farm_map is where the map chart and bar graph on the webpage were created. Again, the visual was created using d3 and html formatting.
 
 
-
-
-
-
-------------------------
-The README file must give an overview of what you are handing in: which parts are your code, which parts are libraries, and so on. The README must contain URLs to your project websites and screencast videos. The README must also explain any non-obvious features of your interface.
