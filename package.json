@@ -2,5 +2,8 @@
   "dependencies": {
     "topojson-client": "^3.1.0",
     "us-atlas": "^3.0.1"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
   }
 }
