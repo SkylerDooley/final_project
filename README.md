@@ -3,7 +3,7 @@ Final Project - Interactive Data Visualization
 Written by Daniel Mastrobuono and Skyler Dooley
 
 * Link to get GeoJSON file used for map https://eric.clst.org/tech/usgeojson/
-* Link to hosted webpage: 
+* Link to gh-pages: https://skylerdooley.github.io/final_project/
 * Link to Screencast Video: https://www.loom.com/share/331e1a9f6230451094d2e884fd28d8e2 
 
 

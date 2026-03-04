@@ -15,13 +15,13 @@ export default function USFarmMap() {
 
   // ---------- LOAD CSVS ----------
   useEffect(() => {
-    d3.csv(process.eng.PUBLIC_URL + "/state_farm_counts.csv", d => ({
+    d3.csv("public/state_farm_counts.csv", d => ({
       state: d.state,
       year: +d.year,
       value: +d.num_farms
     })).then(setFarmData);
 
-    d3.csv(process.eng.PUBLIC_URL + "/land_in_farms.csv", d => ({
+    d3.csv("public/land_in_farms.csv", d => ({
       state: d.state,
       year: +d.year,
       value: +d.land_in_farms
