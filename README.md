@@ -4,7 +4,8 @@ Written by Daniel Mastrobuono and Skyler Dooley
 
 * Link to get GeoJSON file used for map https://eric.clst.org/tech/usgeojson/
 * Link to gh-pages: https://skylerdooley.github.io/final_project/
-* Link to Screencast Video: https://www.loom.com/share/331e1a9f6230451094d2e884fd28d8e2 
+* Link to Screencast Video: https://www.loom.com/share/331e1a9f6230451094d2e884fd28d8e2
+* The Process Book can be found in the directory folder at /ProcessBook.pdf
 
 
 origFiles folder: 
