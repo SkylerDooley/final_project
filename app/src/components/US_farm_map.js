@@ -88,7 +88,7 @@ export default function USFarmMap() {
       .style("visibility", "hidden");
 
     // load geojson
-    d3.json("/states.json").then(rawGeo => {
+    d3.json("states.json").then(rawGeo => {
 
       const features = rawGeo.features.map(f => ({
         ...f,
