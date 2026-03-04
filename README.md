@@ -6,7 +6,6 @@ Written by Daniel Mastrobuono and Skyler Dooley
 * Link to hosted webpage: 
 * Link to Screencast Video: https://www.loom.com/share/331e1a9f6230451094d2e884fd28d8e2 
 
-To open the project website from the terminal into a localhost page, just run `npm run` in the terminal
 
 origFiles folder: 
 This folder contains all original USDA reports where we collected the data from. The folder also contains the csv files that contain the values from the data tables in the reports.

@@ -12,13 +12,13 @@ export default function FarmTotalsLineChart() {
   useEffect(() => {
 
     // Farms totals
-    d3.csv("/year_totals.csv", d => ({
+    d3.csv(process.eng.PUBLIC_URL + "/year_totals.csv", d => ({
       year: +d.year,
       total: +d.total_farms
     })).then(setFarmTotals);
 
     // Land needs aggregation
-    d3.csv("/land_in_farms.csv", d => ({
+    d3.csv(process.eng.PUBLIC_URL + "/land_in_farms.csv", d => ({
       year: +d.year,
       land: +d.land_in_farms
     })).then(data => {
